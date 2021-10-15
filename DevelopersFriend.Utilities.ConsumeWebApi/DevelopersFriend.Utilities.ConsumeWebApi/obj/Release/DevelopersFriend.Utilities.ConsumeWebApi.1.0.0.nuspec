@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DevelopersFriend.Utilities.ConsumeWebApi</id>
+    <version>1.0.0</version>
+    <authors>Manikandan Thirumani</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>To consume all Web Api methods(GET/POST/PUT/DELETE)</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Net.Http.Formatting.Extension" version="5.2.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\manikandanT\My-leaining\Source\Nuget\ConsumeWebApi\DevelopersFriend.Utilities.ConsumeWebApi\DevelopersFriend.Utilities.ConsumeWebApi\bin\Release\netcoreapp3.1\DevelopersFriend.Utilities.ConsumeWebApi.dll" target="lib\netcoreapp3.1\DevelopersFriend.Utilities.ConsumeWebApi.dll" />
+  </files>
+</package>

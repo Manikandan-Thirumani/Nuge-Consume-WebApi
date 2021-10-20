@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\manikandanT\\My-leaining\\Source\\Nuget\\ConsumeWebApi\\DevelopersFriend.Utilities.ConsumeWebApi\\DevelopersFriend.Utilities.ConsumeWebApi\\DevelopersFriend.Utilities.ConsumeWebApi.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "restore": {
         "projectUniqueName": "C:\\manikandanT\\My-leaining\\Source\\Nuget\\ConsumeWebApi\\DevelopersFriend.Utilities.ConsumeWebApi\\DevelopersFriend.Utilities.ConsumeWebApi\\DevelopersFriend.Utilities.ConsumeWebApi.csproj",
         "projectName": "DevelopersFriend.Utilities.ConsumeWebApi",
@@ -48,9 +48,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "System.Net.Http.Formatting.Extension": {
+            "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
-              "version": "[5.2.3, )"
+              "version": "[5.2.7, )"
             }
           },
           "imports": [
@@ -64,6 +64,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
